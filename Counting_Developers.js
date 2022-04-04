@@ -17,3 +17,6 @@ function countDevelopers(list) {
     }) 
       return filteredList.length
   }
+
+
+  
