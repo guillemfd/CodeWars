@@ -22,13 +22,20 @@
 // 0 <= angle <= 360
 
 
+
 var whatTimeIsIt = function(angle) {
+
     let h = Math.floor(angle / 30)
-      if (h == 0) {h = 12}
-    else if (h < 10) {h = '0' + h}
+      if (h == 0) {
+        h = 12
+      } else if (h < 10) {
+        h = '0' + h
+      }
   
     let m = Math.floor(angle % 30)
-      if (m < 10) {m = '0' + m}
+      if (m < 10) {
+        m = '0' + m
+      }
     
     return h + ":" + m;
   }
