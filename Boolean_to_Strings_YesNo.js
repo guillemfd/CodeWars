@@ -14,8 +14,8 @@ console.log(boolean(false))
 
 
 //v2
-function boolToWord( bool ){
-    return bool === true ? 'Yes' : 'No';
+function boolToWord(boolean){
+    return boolean === true ? 'Yes' : 'No';
 }
 
 console.log(boolToWord(true))
