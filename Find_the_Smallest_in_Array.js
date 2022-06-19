@@ -26,3 +26,18 @@ function SmallestIntegerFinder(arr) {
   }
 
   console.log(SmallestIntegerFinder(arrList))
+
+
+
+
+  //V3
+function Small(arr){
+  var smallest = 0
+
+  for (i=0; i<=arr.length; i++)
+  if (smallest + arr[i] <= arr[i]) 
+    smallest = arr[i]
+  return smallest
+}
+
+console.log(Small(arrList))
